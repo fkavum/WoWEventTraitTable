@@ -24,10 +24,52 @@
   background-color: #04666D;
   color: white;
 }
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height:50px;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  height:50px;
+}
+
+nav li a:hover:not(.active) {
+  background-color: #111;
+}
+
+nav .active {
+  background-color: #04AA6D;
+}
 </style>
 </head>
 <body>
 
+  <nav>
+    <ul>
+        <li><a  href="https://playerprofiling.github.io/WoWEvents/">Events Table</a></li>
+        <li><a  class="active" href="https://playerprofiling.github.io/EventTrait/">Event-Trait Table</a></li>
+        <li><a href="https://playerprofiling.github.io/WoWTraits/">Trait Explainations</a></li>
+        <li><a href="https://playerprofiling.github.io/ResultTables/">Result Tables</a></li>
+    </ul>
+</nav>
+<div .class= "main" style="margin-top:50px">
 <table id="eventTraitTable">
   <tr>
 	<th>Events\Traits </th>
@@ -52,7 +94,7 @@
 <td>0</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Achievement Points</td>
 <td>4</td>
 <td>0</td>
@@ -62,7 +104,7 @@
 <td>0</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Total Honorable Kills</td>
 <td>20</td>
 <td>0</td>
@@ -72,7 +114,7 @@
 <td>0</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Average Reputation Ratio</td>
 <td>0</td>
 <td>0</td>
@@ -82,7 +124,7 @@
 <td>0</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Number of Titles</td>
 <td>0</td>
 <td>0</td>
@@ -92,7 +134,7 @@
 <td>0</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Total Factions Encountered</td>
 <td>0</td>
 <td>0</td>
@@ -102,7 +144,7 @@
 <td>0</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Quests Completed</td>
 <td>0</td>
 <td>0</td>
@@ -112,7 +154,7 @@
 <td>0</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Daily Quests Completed</td>
 <td>0</td>
 <td>0</td>
@@ -122,7 +164,7 @@
 <td>0</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Avg Daily Quests Comp. per Day</td>
 <td>0</td>
 <td>0</td>
@@ -132,7 +174,7 @@
 <td>0</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Abandoned Quests</td>
 <td>0</td>
 <td>15</td>
@@ -142,7 +184,7 @@
 <td>0</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Heartstone Used</td>
 <td>0</td>
 <td>8</td>
@@ -152,7 +194,7 @@
 <td>0</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Flight Paths Taken</td>
 <td>0</td>
 <td>0</td>
@@ -162,7 +204,7 @@
 <td>0</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Mage Portals Used</td>
 <td>0</td>
 <td>1</td>
@@ -172,7 +214,7 @@
 <td>0</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Summons Accepted</td>
 <td>0</td>
 <td>0</td>
@@ -182,7 +224,7 @@
 <td>0</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Tank</td>
 <td>0</td>
 <td>0</td>
@@ -192,7 +234,7 @@
 <td>0</td>
 <td>25</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Healer</td>
 <td>0</td>
 <td>0</td>
@@ -202,7 +244,7 @@
 <td>0</td>
 <td>25</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>DPS</td>
 <td>0</td>
 <td>0</td>
@@ -212,7 +254,7 @@
 <td>0</td>
 <td>0</td>
 <td>25 </td>
-  <tr>
+  </tr><tr>
     <td>Boss Kill Count</td>
 <td>0</td>
 <td>0</td>
@@ -222,7 +264,7 @@
 <td>0</td>
 <td>0</td>
 <td>10 </td>
-  <tr>
+  </tr><tr>
     <td>Loot Count</td>
 <td>0</td>
 <td>0</td>
@@ -232,7 +274,7 @@
 <td>0</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Achievement Count</td>
 <td>0</td>
 <td>0</td>
@@ -242,7 +284,7 @@
 <td>0</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Boss Kill Frequency</td>
 <td>0</td>
 <td>0</td>
@@ -252,7 +294,7 @@
 <td>0</td>
 <td>0</td>
 <td>10 </td>
-  <tr>
+  </tr><tr>
     <td>Loot Frequency</td>
 <td>0</td>
 <td>0</td>
@@ -262,7 +304,7 @@
 <td>0</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Achievement Frequency</td>
 <td>0</td>
 <td>0</td>
@@ -272,7 +314,7 @@
 <td>0</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Most Used Pet is DPS</td>
 <td>0</td>
 <td>0</td>
@@ -282,7 +324,7 @@
 <td>0</td>
 <td>5</td>
 <td>15 </td>
-  <tr>
+  </tr><tr>
     <td>Most Used Pet is Healer</td>
 <td>0</td>
 <td>0</td>
@@ -292,7 +334,7 @@
 <td>0</td>
 <td>15</td>
 <td>10 </td>
-  <tr>
+  </tr><tr>
     <td>Most Used Pet is Tank</td>
 <td>0</td>
 <td>0</td>
@@ -302,7 +344,7 @@
 <td>0</td>
 <td>12</td>
 <td>10 </td>
-  <tr>
+  </tr><tr>
     <td>DPS Hunter Pet Count</td>
 <td>0</td>
 <td>0</td>
@@ -312,7 +354,7 @@
 <td>0</td>
 <td>8</td>
 <td>8 </td>
-  <tr>
+  </tr><tr>
     <td>Healer Hunter Pet Count</td>
 <td>0</td>
 <td>0</td>
@@ -322,7 +364,7 @@
 <td>0</td>
 <td>8</td>
 <td>8 </td>
-  <tr>
+  </tr><tr>
     <td>Tank Hunter Pet Count</td>
 <td>0</td>
 <td>0</td>
@@ -332,7 +374,7 @@
 <td>0</td>
 <td>8</td>
 <td>8 </td>
-  <tr>
+  </tr><tr>
     <td>Empty Pet Slots</td>
 <td>0</td>
 <td>20</td>
@@ -342,7 +384,7 @@
 <td>0</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Number of Abilities Selected</td>
 <td>0</td>
 <td>0</td>
@@ -352,7 +394,7 @@
 <td>0</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Collected Pet Count</td>
 <td>0</td>
 <td>0</td>
@@ -362,7 +404,7 @@
 <td>0</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Non-Collected Pet Count</td>
 <td>0</td>
 <td>8</td>
@@ -372,7 +414,7 @@
 <td>0</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Collected Mount Count</td>
 <td>0</td>
 <td>0</td>
@@ -382,7 +424,7 @@
 <td>0</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Non-Collected Mount Count</td>
 <td>0</td>
 <td>12</td>
@@ -392,7 +434,7 @@
 <td>0</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Ground Mount Count</td>
 <td>0</td>
 <td>0</td>
@@ -402,7 +444,7 @@
 <td>0</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Flying Mount Count</td>
 <td>0</td>
 <td>0</td>
@@ -412,7 +454,7 @@
 <td>0</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Aquatic Mount Count</td>
 <td>0</td>
 <td>0</td>
@@ -422,7 +464,7 @@
 <td>0</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Jumping Mount Count</td>
 <td>0</td>
 <td>0</td>
@@ -432,7 +474,7 @@
 <td>0</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>2v2 Winrate (Weekly)</td>
 <td>12</td>
 <td>0</td>
@@ -442,7 +484,7 @@
 <td>0</td>
 <td>9</td>
 <td>20 </td>
-  <tr>
+  </tr><tr>
     <td>2v2 Match Count (Weekly)</td>
 <td>0</td>
 <td>0</td>
@@ -452,7 +494,7 @@
 <td>0</td>
 <td>9</td>
 <td>20 </td>
-  <tr>
+  </tr><tr>
     <td>2v2 Winrate (Seasonal)</td>
 <td>20</td>
 <td>0</td>
@@ -462,7 +504,7 @@
 <td>0</td>
 <td>9</td>
 <td>20 </td>
-  <tr>
+  </tr><tr>
     <td>2v2 Match Count (Seasonal)</td>
 <td>0</td>
 <td>0</td>
@@ -472,7 +514,7 @@
 <td>0</td>
 <td>9</td>
 <td>20 </td>
-  <tr>
+  </tr><tr>
     <td>2v2 Skirmish Winrate (Weekly)</td>
 <td>0</td>
 <td>4</td>
@@ -482,7 +524,7 @@
 <td>0</td>
 <td>4</td>
 <td>9 </td>
-  <tr>
+  </tr><tr>
     <td>2v2 Skirmish Match Count (Weekly)</td>
 <td>0</td>
 <td>25</td>
@@ -492,7 +534,7 @@
 <td>0</td>
 <td>4</td>
 <td>9 </td>
-  <tr>
+  </tr><tr>
     <td>2v2 Skirmish Winrate (Seasonal)</td>
 <td>0</td>
 <td>4</td>
@@ -502,7 +544,7 @@
 <td>0</td>
 <td>4</td>
 <td>9 </td>
-  <tr>
+  </tr><tr>
     <td>2v2 Skirmish Match Count (Seasonal)</td>
 <td>0</td>
 <td>25</td>
@@ -512,7 +554,7 @@
 <td>0</td>
 <td>4</td>
 <td>9 </td>
-  <tr>
+  </tr><tr>
     <td>3v3 Winrate (Weekly)</td>
 <td>9</td>
 <td>0</td>
@@ -522,7 +564,7 @@
 <td>0</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>3v3 Match Count (Weekly)</td>
 <td>0</td>
 <td>0</td>
@@ -532,7 +574,7 @@
 <td>0</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>3v3 Winrate (Seasonal)</td>
 <td>16</td>
 <td>0</td>
@@ -542,7 +584,7 @@
 <td>0</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>3v3 Match Count (Seasonal)</td>
 <td>0</td>
 <td>0</td>
@@ -552,7 +594,7 @@
 <td>0</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Rated Battleground Winrate (Weekly)</td>
 <td>25</td>
 <td>0</td>
@@ -562,7 +604,7 @@
 <td>0</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Rated Battleground Count (Weekly)</td>
 <td>0</td>
 <td>0</td>
@@ -572,7 +614,7 @@
 <td>0</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Total Arena Winrate</td>
 <td>25</td>
 <td>0</td>
@@ -582,7 +624,7 @@
 <td>0</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Total Arena Game Count</td>
 <td>25</td>
 <td>0</td>
@@ -592,7 +634,7 @@
 <td>0</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Highest 3 Man Personal Rating</td>
 <td>20</td>
 <td>0</td>
@@ -602,7 +644,7 @@
 <td>0</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Highest 2 Man Personal Rating</td>
 <td>25</td>
 <td>0</td>
@@ -612,7 +654,7 @@
 <td>0</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Highest 3 Man Team Rating</td>
 <td>12</td>
 <td>0</td>
@@ -622,7 +664,7 @@
 <td>0</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Highest 2 Man Team Rating</td>
 <td>15</td>
 <td>0</td>
@@ -632,7 +674,7 @@
 <td>0</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Rated Bg Winrate (Seasonal)</td>
 <td>0</td>
 <td>0</td>
@@ -642,7 +684,7 @@
 <td>0</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Rated Bg Match Count (Seasonal)</td>
 <td>0</td>
 <td>0</td>
@@ -652,7 +694,7 @@
 <td>0</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Duels Win</td>
 <td>20</td>
 <td>0</td>
@@ -662,7 +704,7 @@
 <td>0</td>
 <td>0</td>
 <td>25 </td>
-  <tr>
+  </tr><tr>
     <td>Duels Lost</td>
 <td>0</td>
 <td>10</td>
@@ -672,7 +714,7 @@
 <td>0</td>
 <td>0</td>
 <td>25 </td>
-  <tr>
+  </tr><tr>
     <td>Health</td>
 <td>0</td>
 <td>0</td>
@@ -682,7 +724,7 @@
 <td>0</td>
 <td>20</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Energy (Mana, Stamina...)</td>
 <td>0</td>
 <td>0</td>
@@ -692,7 +734,7 @@
 <td>0</td>
 <td>15</td>
 <td>15 </td>
-  <tr>
+  </tr><tr>
     <td>Strength</td>
 <td>0</td>
 <td>0</td>
@@ -702,7 +744,7 @@
 <td>0</td>
 <td>20</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Agility</td>
 <td>0</td>
 <td>0</td>
@@ -712,7 +754,7 @@
 <td>0</td>
 <td>0</td>
 <td>25 </td>
-  <tr>
+  </tr><tr>
     <td>Intelligence</td>
 <td>0</td>
 <td>0</td>
@@ -722,7 +764,7 @@
 <td>0</td>
 <td>20</td>
 <td>20 </td>
-  <tr>
+  </tr><tr>
     <td>Stamina</td>
 <td>0</td>
 <td>0</td>
@@ -732,7 +774,7 @@
 <td>0</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Haste Percentage</td>
 <td>0</td>
 <td>0</td>
@@ -742,7 +784,7 @@
 <td>0</td>
 <td>0</td>
 <td>25 </td>
-  <tr>
+  </tr><tr>
     <td>Speed</td>
 <td>0</td>
 <td>0</td>
@@ -752,7 +794,7 @@
 <td>0</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Crit Percentage</td>
 <td>0</td>
 <td>0</td>
@@ -762,7 +804,7 @@
 <td>0</td>
 <td>0</td>
 <td>25 </td>
-  <tr>
+  </tr><tr>
     <td>Mastery Percentage</td>
 <td>0</td>
 <td>0</td>
@@ -772,7 +814,7 @@
 <td>0</td>
 <td>9</td>
 <td>9 </td>
-  <tr>
+  </tr><tr>
     <td>Leech Percentage</td>
 <td>0</td>
 <td>0</td>
@@ -782,7 +824,7 @@
 <td>0</td>
 <td>0</td>
 <td>20 </td>
-  <tr>
+  </tr><tr>
     <td>Versatility Percentage</td>
 <td>0</td>
 <td>2</td>
@@ -792,7 +834,7 @@
 <td>0</td>
 <td>16</td>
 <td>16 </td>
-  <tr>
+  </tr><tr>
     <td>Avoidance Percentage</td>
 <td>0</td>
 <td>0</td>
@@ -802,7 +844,7 @@
 <td>0</td>
 <td>25</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Dodge Percentage</td>
 <td>0</td>
 <td>0</td>
@@ -812,7 +854,7 @@
 <td>0</td>
 <td>25</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Parry Percentage</td>
 <td>0</td>
 <td>0</td>
@@ -822,7 +864,7 @@
 <td>0</td>
 <td>25</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Armor</td>
 <td>0</td>
 <td>0</td>
@@ -832,7 +874,7 @@
 <td>0</td>
 <td>25</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Block</td>
 <td>0</td>
 <td>0</td>
@@ -842,7 +884,7 @@
 <td>0</td>
 <td>25</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Main Hand Avg Damage</td>
 <td>0</td>
 <td>0</td>
@@ -852,7 +894,7 @@
 <td>0</td>
 <td>0</td>
 <td>25 </td>
-  <tr>
+  </tr><tr>
     <td>Offhand Avg Damage</td>
 <td>0</td>
 <td>0</td>
@@ -862,7 +904,7 @@
 <td>0</td>
 <td>0</td>
 <td>25 </td>
-  <tr>
+  </tr><tr>
     <td>Main Hand DPS</td>
 <td>0</td>
 <td>0</td>
@@ -872,7 +914,7 @@
 <td>0</td>
 <td>0</td>
 <td>25 </td>
-  <tr>
+  </tr><tr>
     <td>Offhand DPS</td>
 <td>0</td>
 <td>0</td>
@@ -882,7 +924,7 @@
 <td>0</td>
 <td>0</td>
 <td>25 </td>
-  <tr>
+  </tr><tr>
     <td>Ranged Avg Damage</td>
 <td>0</td>
 <td>0</td>
@@ -892,7 +934,7 @@
 <td>0</td>
 <td>0</td>
 <td>25 </td>
-  <tr>
+  </tr><tr>
     <td>Ranged DPS</td>
 <td>0</td>
 <td>0</td>
@@ -902,7 +944,7 @@
 <td>0</td>
 <td>0</td>
 <td>25 </td>
-  <tr>
+  </tr><tr>
     <td>Number of DPS Talents</td>
 <td>0</td>
 <td>0</td>
@@ -912,7 +954,7 @@
 <td>0</td>
 <td>0</td>
 <td>25 </td>
-  <tr>
+  </tr><tr>
     <td>Number of Healing Talents</td>
 <td>0</td>
 <td>0</td>
@@ -922,7 +964,7 @@
 <td>0</td>
 <td>25</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Number of Tank Talents</td>
 <td>0</td>
 <td>0</td>
@@ -932,7 +974,7 @@
 <td>0</td>
 <td>25</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Number of Respecs</td>
 <td>15</td>
 <td>0</td>
@@ -942,7 +984,7 @@
 <td>0</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Bandage Consumption</td>
 <td>0</td>
 <td>6</td>
@@ -952,7 +994,7 @@
 <td>0</td>
 <td>0</td>
 <td>4 </td>
-  <tr>
+  </tr><tr>
     <td>Health Potion Consumption</td>
 <td>0</td>
 <td>0</td>
@@ -962,7 +1004,7 @@
 <td>0</td>
 <td>0</td>
 <td>6 </td>
-  <tr>
+  </tr><tr>
     <td>Mana Potion Consumption</td>
 <td>0</td>
 <td>0</td>
@@ -972,7 +1014,7 @@
 <td>0</td>
 <td>6</td>
 <td>9 </td>
-  <tr>
+  </tr><tr>
     <td>Elixir Consumption</td>
 <td>0</td>
 <td>0</td>
@@ -982,7 +1024,7 @@
 <td>0</td>
 <td>4</td>
 <td>6 </td>
-  <tr>
+  </tr><tr>
     <td>Flask Consumtion</td>
 <td>0</td>
 <td>0</td>
@@ -992,7 +1034,7 @@
 <td>0</td>
 <td>6</td>
 <td>4 </td>
-  <tr>
+  </tr><tr>
     <td>Uncommon Items</td>
 <td>0</td>
 <td>3</td>
@@ -1002,7 +1044,7 @@
 <td>0</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Rare Items</td>
 <td>4</td>
 <td>0</td>
@@ -1012,7 +1054,7 @@
 <td>0</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Epic Items</td>
 <td>12</td>
 <td>0</td>
@@ -1022,7 +1064,7 @@
 <td>0</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Legendery Items</td>
 <td>20</td>
 <td>0</td>
@@ -1032,7 +1074,7 @@
 <td>0</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Heirloom Items</td>
 <td>0</td>
 <td>10</td>
@@ -1042,7 +1084,7 @@
 <td>0</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Item Level - Self Level Difference</td>
 <td>0</td>
 <td>4</td>
@@ -1052,7 +1094,7 @@
 <td>0</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Looted Epic Items</td>
 <td>0</td>
 <td>0</td>
@@ -1062,7 +1104,7 @@
 <td>0</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Greed Rolls</td>
 <td>0</td>
 <td>0</td>
@@ -1072,7 +1114,7 @@
 <td>0</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Need Rolls</td>
 <td>0</td>
 <td>0</td>
@@ -1082,7 +1124,7 @@
 <td>0</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Largest Hit Dealt</td>
 <td>0</td>
 <td>0</td>
@@ -1092,7 +1134,7 @@
 <td>0</td>
 <td>0</td>
 <td>25 </td>
-  <tr>
+  </tr><tr>
     <td>Largest Hit Received</td>
 <td>0</td>
 <td>0</td>
@@ -1102,7 +1144,7 @@
 <td>0</td>
 <td>25</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Total Damage Done</td>
 <td>1</td>
 <td>0</td>
@@ -1112,7 +1154,7 @@
 <td>0</td>
 <td>0</td>
 <td>25 </td>
-  <tr>
+  </tr><tr>
     <td>Total Damage Received</td>
 <td>1</td>
 <td>0</td>
@@ -1122,7 +1164,7 @@
 <td>0</td>
 <td>25</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Largest Heal Cast</td>
 <td>0</td>
 <td>0</td>
@@ -1132,7 +1174,7 @@
 <td>0</td>
 <td>25</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Largest Heal Received</td>
 <td>0</td>
 <td>0</td>
@@ -1142,7 +1184,7 @@
 <td>0</td>
 <td>0</td>
 <td>15 </td>
-  <tr>
+  </tr><tr>
     <td>Total Healing Done</td>
 <td>1</td>
 <td>0</td>
@@ -1152,7 +1194,7 @@
 <td>0</td>
 <td>25</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Total Healing Received</td>
 <td>1</td>
 <td>0</td>
@@ -1162,7 +1204,7 @@
 <td>0</td>
 <td>25</td>
 <td>15 </td>
-  <tr>
+  </tr><tr>
     <td>Total Kills</td>
 <td>0</td>
 <td>0</td>
@@ -1172,7 +1214,7 @@
 <td>0</td>
 <td>0</td>
 <td>25 </td>
-  <tr>
+  </tr><tr>
     <td>Creature Kills</td>
 <td>0</td>
 <td>0</td>
@@ -1182,7 +1224,7 @@
 <td>0</td>
 <td>0</td>
 <td>25 </td>
-  <tr>
+  </tr><tr>
     <td>Different Creature Types Killed</td>
 <td>0</td>
 <td>0</td>
@@ -1192,7 +1234,7 @@
 <td>0</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Critters Killed</td>
 <td>0</td>
 <td>3</td>
@@ -1202,7 +1244,7 @@
 <td>0</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>World Honorable Kills</td>
 <td>0</td>
 <td>0</td>
@@ -1212,7 +1254,7 @@
 <td>0</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Arena Honorable Kills</td>
 <td>0</td>
 <td>0</td>
@@ -1222,7 +1264,7 @@
 <td>0</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Total Deaths</td>
 <td>0</td>
 <td>3</td>
@@ -1232,7 +1274,7 @@
 <td>0</td>
 <td>2</td>
 <td>15 </td>
-  <tr>
+  </tr><tr>
     <td>Revived By Others</td>
 <td>0</td>
 <td>2</td>
@@ -1242,7 +1284,7 @@
 <td>0</td>
 <td>3</td>
 <td>25 </td>
-  <tr>
+  </tr><tr>
     <td>Total 10 Player Raids Entered</td>
 <td>0</td>
 <td>0</td>
@@ -1252,7 +1294,7 @@
 <td>0</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Total 25 Player Raids Entered</td>
 <td>0</td>
 <td>0</td>
@@ -1262,7 +1304,7 @@
 <td>0</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Professions Learned</td>
 <td>0</td>
 <td>0</td>
@@ -1272,7 +1314,7 @@
 <td>25</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Maxed Out Professions</td>
 <td>0</td>
 <td>0</td>
@@ -1282,7 +1324,7 @@
 <td>25</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Maxed Out Secondary Professions</td>
 <td>0</td>
 <td>0</td>
@@ -1292,7 +1334,7 @@
 <td>25</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Highest Alchemy Skill</td>
 <td>0</td>
 <td>0</td>
@@ -1302,7 +1344,7 @@
 <td>25</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Learned Alchemy Recipes</td>
 <td>0</td>
 <td>0</td>
@@ -1312,7 +1354,7 @@
 <td>16</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Highest Blacksmith Skill</td>
 <td>0</td>
 <td>0</td>
@@ -1322,7 +1364,7 @@
 <td>25</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Learned Blacksmith Plans</td>
 <td>0</td>
 <td>0</td>
@@ -1332,7 +1374,7 @@
 <td>16</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Highest Enhanting Skill</td>
 <td>0</td>
 <td>0</td>
@@ -1342,7 +1384,7 @@
 <td>0</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Learned Enchanting Formulas</td>
 <td>0</td>
 <td>0</td>
@@ -1352,7 +1394,7 @@
 <td>0</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Materials Produced by Disenchant</td>
 <td>0</td>
 <td>0</td>
@@ -1362,7 +1404,7 @@
 <td>0</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Items Disenchanted</td>
 <td>0</td>
 <td>0</td>
@@ -1372,7 +1414,7 @@
 <td>0</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Highest Engineering Skill</td>
 <td>0</td>
 <td>0</td>
@@ -1382,7 +1424,7 @@
 <td>25</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Learned Engineering Schematics</td>
 <td>0</td>
 <td>0</td>
@@ -1392,7 +1434,7 @@
 <td>16</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Highest Herbalism Skill</td>
 <td>0</td>
 <td>0</td>
@@ -1402,7 +1444,7 @@
 <td>25</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Highest Inscription Skill</td>
 <td>0</td>
 <td>0</td>
@@ -1412,7 +1454,7 @@
 <td>25</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Learned Inscriptions</td>
 <td>0</td>
 <td>0</td>
@@ -1422,7 +1464,7 @@
 <td>16</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Highest Jewelcraft Skill</td>
 <td>0</td>
 <td>0</td>
@@ -1432,7 +1474,7 @@
 <td>25</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Learned Jewelcrafting Designs</td>
 <td>0</td>
 <td>0</td>
@@ -1442,7 +1484,7 @@
 <td>16</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Highest Leatherworking Skill</td>
 <td>0</td>
 <td>0</td>
@@ -1452,7 +1494,7 @@
 <td>25</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Learned Leatherworking Patterns</td>
 <td>0</td>
 <td>0</td>
@@ -1462,7 +1504,7 @@
 <td>16</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Highest Mining Skill</td>
 <td>0</td>
 <td>0</td>
@@ -1472,7 +1514,7 @@
 <td>25</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Learned Smelting Recipes</td>
 <td>0</td>
 <td>0</td>
@@ -1482,7 +1524,7 @@
 <td>16</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Highest Skinning Skill</td>
 <td>0</td>
 <td>0</td>
@@ -1492,7 +1534,7 @@
 <td>25</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Highest Tailoring Skill</td>
 <td>0</td>
 <td>0</td>
@@ -1502,7 +1544,7 @@
 <td>25</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Learned Tailoring Patterns</td>
 <td>0</td>
 <td>0</td>
@@ -1512,7 +1554,7 @@
 <td>16</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Cooking</td>
 <td>0</td>
 <td>0</td>
@@ -1522,7 +1564,7 @@
 <td>25</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Cooking Recipes Known</td>
 <td>0</td>
 <td>0</td>
@@ -1532,7 +1574,7 @@
 <td>20</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>First Aid</td>
 <td>0</td>
 <td>0</td>
@@ -1542,7 +1584,7 @@
 <td>25</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>First Aid Manuals Learnt</td>
 <td>0</td>
 <td>0</td>
@@ -1552,7 +1594,7 @@
 <td>20</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Fishing</td>
 <td>0</td>
 <td>0</td>
@@ -1562,7 +1604,7 @@
 <td>25</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Fish Caught</td>
 <td>0</td>
 <td>0</td>
@@ -1572,7 +1614,7 @@
 <td>20</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Fish and Other Things Caught</td>
 <td>0</td>
 <td>0</td>
@@ -1582,7 +1624,7 @@
 <td>20</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Alchemy-Herbalism</td>
 <td>0</td>
 <td>0</td>
@@ -1592,7 +1634,7 @@
 <td>25</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Blacksmith-Mining</td>
 <td>0</td>
 <td>0</td>
@@ -1602,7 +1644,7 @@
 <td>25</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Engineering-Mining</td>
 <td>0</td>
 <td>0</td>
@@ -1612,7 +1654,7 @@
 <td>25</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Jewelcrafting-Mining</td>
 <td>0</td>
 <td>0</td>
@@ -1622,7 +1664,7 @@
 <td>25</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Leatherworking-Skinning</td>
 <td>0</td>
 <td>0</td>
@@ -1632,7 +1674,7 @@
 <td>25</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Class Hall Troops Recruited</td>
 <td>2</td>
 <td>0</td>
@@ -1642,7 +1684,7 @@
 <td>0</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Class Hall Missions Completed</td>
 <td>1</td>
 <td>0</td>
@@ -1652,7 +1694,7 @@
 <td>0</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Class Hall Rare Missions Completed</td>
 <td>1</td>
 <td>0</td>
@@ -1662,7 +1704,7 @@
 <td>0</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Garrison Followers Recruited</td>
 <td>2</td>
 <td>0</td>
@@ -1672,7 +1714,7 @@
 <td>0</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Garrison Missions Completed</td>
 <td>1</td>
 <td>0</td>
@@ -1682,7 +1724,7 @@
 <td>0</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Garrison Rare Missions Completed</td>
 <td>1</td>
 <td>0</td>
@@ -1692,7 +1734,7 @@
 <td>0</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Badges Collected</td>
 <td>2</td>
 <td>0</td>
@@ -1702,7 +1744,7 @@
 <td>0</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Badge Variety</td>
 <td>4</td>
 <td>0</td>
@@ -1712,7 +1754,7 @@
 <td>0</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Bronze Challenge Ratings Earned</td>
 <td>2</td>
 <td>0</td>
@@ -1722,7 +1764,7 @@
 <td>0</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Silver Challenge Ratings Earned</td>
 <td>4</td>
 <td>0</td>
@@ -1732,7 +1774,7 @@
 <td>0</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Gold Challenge Ratings Earned</td>
 <td>6</td>
 <td>0</td>
@@ -1742,7 +1784,7 @@
 <td>0</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Unspent Talent Points</td>
 <td>0</td>
 <td>25</td>
@@ -1752,7 +1794,7 @@
 <td>0</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Empty Glyph Slots</td>
 <td>0</td>
 <td>10</td>
@@ -1762,7 +1804,7 @@
 <td>0</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Number of Unenchanted Items</td>
 <td>0</td>
 <td>10</td>
@@ -1772,7 +1814,7 @@
 <td>0</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Sum of Missing Sockets</td>
 <td>0</td>
 <td>5</td>
@@ -1782,7 +1824,7 @@
 <td>0</td>
 <td>0</td>
 <td>0 </td>
-  <tr>
+  </tr><tr>
     <td>Sum of Missing Enchants<td>
 </td>0</td>
 <td>5</td>
@@ -1801,7 +1843,7 @@
   
   
   
-  <tr>
+  </tr><tr>
     <td>Paris spécialités</td>
     <td>Marie Bertrand</td>
     <td>France</td>
@@ -1810,6 +1852,8 @@
   
   
 </table>
+
+</div>
 
 </body>
 </html>
